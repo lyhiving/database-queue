@@ -1,0 +1,43 @@
+{
+    "name": "uvodohq/database-queue",
+    "description": "Database Queue plugin for Uvodo",
+    "version": "1.0.0",
+    "type": "uvodo-plugin",
+    "homepage": "https://uvodo.com/plugins/database-queue",
+    "time": "2022-07-18",
+    "license": "Uvodo License",
+    "authors": [
+        {
+            "name": "Ahmad Mammadli",
+            "email": "m.ahmad@uvodo.com",
+            "homepage": "https://www.linkedin.com/in/axmedbek/",
+            "role": "Backend Developer at Uvodo"
+        }
+    ],
+    "support": {
+        "chat": "https://uvodo.com/support/chat",
+        "docs": "https://uvodo.com/support/docs",
+        "email": "support@uvodo.com",
+        "forum": "https://uvodo.com/",
+        "irc": "https://uvodo.com/",
+        "issues": "https://github.com/uvodohq/plugins-string",
+        "rss": "https://uvodo.com/",
+        "source": "https://gitlab.com/uvodo/plugins/database-queue",
+        "wiki": "https://gitlab.com/uvodo/plugins/database-queue/-/wikis"
+    },
+    "require": {
+        "enqueue/dbal": "^0.10.17"
+    },
+    "extra": {
+        "entry-class": "Uvodo\\DatabaseQueue\\DatabaseQueuePlugin",
+        "title": "DatabaseQueue <> Uvodo",
+        "description": "This plugin give support for Database Queue to the Uvodo.",
+        "logo": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png",
+        "icon": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uvodo\\DatabaseQueue\\": "src/"
+        }
+    }
+}

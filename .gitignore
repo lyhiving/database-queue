@@ -1,0 +1,35 @@
+# VS CODE Workspace file
+*.code-workspace
+
+# IntelliJ IDE files
+**/.idea
+
+# OS X Desktop Services Store files
+**/.DS_Store
+
+# Vendors
+/vendor/
+
+# .env files
+.env*
+!.env.example
+
+# Temporary files
+.tmp
+
+# Cache folder
+.cache
+cache
+
+# Build files
+app/dist
+app/node_modules
+
+# Releases
+/releases/
+
+# PHPUnit cache file
+.phpunit.result.cache
+
+# Code coverage output files
+coverage
