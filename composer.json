@@ -26,6 +26,7 @@
         "wiki": "https://gitlab.com/uvodo/plugins/database-queue/-/wikis"
     },
     "require": {
+        "uvodohq/composer": "^1.0.0",
         "enqueue/dbal": "^0.10.17"
     },
     "extra": {
@@ -34,6 +35,9 @@
         "description": "This plugin give support for Database Queue to the Uvodo.",
         "logo": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png",
         "icon": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png"
+    },
+    "config": {
+        "allow-plugins": true
     },
     "autoload": {
         "psr-4": {

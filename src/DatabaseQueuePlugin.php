@@ -32,7 +32,7 @@ class DatabaseQueuePlugin implements PluginInterface
     {
         DatabaseQueueContext::$context = $context;
         $this->queueFactory->register(
-            $context->getName()->getValue(),
+            $context->getName(),
             $this->databaseService->getContext()
         );
     }
