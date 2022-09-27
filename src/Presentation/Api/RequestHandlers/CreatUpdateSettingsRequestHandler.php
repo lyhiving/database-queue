@@ -1,6 +1,6 @@
 <?php
 
-namespace Uvodo\Mailer\Presentation\Api\RequestHandlers;
+namespace Uvodo\DatabaseQueue\Presentation\Api\RequestHandlers;
 
 use Modules\Option\Domain\Exceptions\OptionAlreadyExistsException;
 use Modules\Option\Domain\Exceptions\OptionNotFoundException;
