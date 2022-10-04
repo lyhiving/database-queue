@@ -34,8 +34,8 @@
         "title": "DatabaseQueue",
         "description": "This plugin give support for Database Queue to the Uvodo.",
         "logo": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png",
-        "icon": "https://img.alicdn.com/imgextra/i4/O1CN0151KW6P1f2EKvbCtDC_!!6000000003948-2-tps-200-200.png",
-        "status": "active"
+        "icon": "https://cdn.uvodo.com/plugins/logo/database-queue.png",
+        "status": "inactive"
     },
     "autoload": {
         "psr-4": {
