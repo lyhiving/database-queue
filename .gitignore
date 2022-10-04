@@ -23,7 +23,8 @@ cache
 
 # Build files
 app/dist
-app/node_modules
+*/node_modules/*
+/build/
 
 # Releases
 /releases/
